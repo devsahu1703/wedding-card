@@ -239,7 +239,7 @@ Error generating stack: `+ i.message + `
             f.jsx("div", { className: "text-3xl mb-2", children: "\u{1F33C}" }),
             f.jsx("h3", { className: "font-display text-lg tracking-[0.15em] uppercase mb-1", style: { color: "#5C2018" }, children: "Haldi" }),
             f.jsx("p", { className: "font-script text-lg mb-2", style: { color: "#5C2018" }, children: "Sunlit Haldi Affair" }),
-            f.jsxs("p", { className: "font-body text-xs tracking-wide", style: { color: "rgba(92,32,24,0.75)" }, children: ["Dress Code: ", f.jsx("span", { className: "font-semibold", children: "Shades of Orange" })] })
+            f.jsxs("p", { className: "font-body text-xs tracking-wide", style: { color: "rgba(92,32,24,0.75)" }, children: ["Dress Code: ", f.jsx("span", { className: "font-semibold", children: "vibrant shades" })] })
           ]
         }),
         f.jsxs(z.div, {
@@ -254,16 +254,8 @@ Error generating stack: `+ i.message + `
           initial: { opacity: 0, scale: 0.95 }, whileInView: { opacity: 1, scale: 1 }, transition: { duration: .5, delay: .7 }, viewport: { once: !0 }, className: "rounded-2xl p-5 text-center", style: { backgroundColor: "rgba(184,134,11,0.06)", border: "1px solid rgba(184,134,11,0.2)" }, children: [
             f.jsx("div", { className: "text-3xl mb-2", children: "\u{1F451}" }),
             f.jsx("h3", { className: "font-display text-lg tracking-[0.15em] uppercase mb-1", style: { color: "#5C2018" }, children: "Shaadi" }),
-            f.jsx("p", { className: "font-script text-lg mb-2", style: { color: "#5C2018" }, children: "Royal Heritage Wedding" }),
+            f.jsx("p", { className: "font-script text-lg mb-2", style: { color: "#5C2018" }, children: "Royal Heritage Wedding " }),
             f.jsxs("p", { className: "font-body text-xs tracking-wide", style: { color: "rgba(92,32,24,0.75)" }, children: ["Dress Code: ", f.jsx("span", { className: "font-semibold", children: "Traditional & Regal" })] })
-          ]
-        }),
-        f.jsxs(z.div, {
-          initial: { opacity: 0, scale: 0.95 }, whileInView: { opacity: 1, scale: 1 }, transition: { duration: .5, delay: .8 }, viewport: { once: !0 }, className: "rounded-2xl p-5 text-center", style: { backgroundColor: "rgba(0,0,0,0.03)", border: "1px solid rgba(92,32,24,0.15)" }, children: [
-            f.jsx("div", { className: "text-3xl mb-2", children: "\u{1F942}" }),
-            f.jsx("h3", { className: "font-display text-lg tracking-[0.15em] uppercase mb-1", style: { color: "#5C2018" }, children: "Reception" }),
-            f.jsx("p", { className: "font-script text-lg mb-2", style: { color: "#5C2018" }, children: "The Grand Gala Dinner" }),
-            f.jsxs("p", { className: "font-body text-xs tracking-wide", style: { color: "rgba(92,32,24,0.75)" }, children: ["Dress Code: ", f.jsx("span", { className: "font-semibold", children: "Black Tie / Formal Elegance" })] })
           ]
         })
       ]
